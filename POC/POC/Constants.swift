@@ -10,8 +10,8 @@ import UIKit
 import FlickrKitFramework
 
 //KEYS AND VARIABLES
-let userKey = "72048efe61d5bb85ac1e5199e6aaf8ad"
-let userSecret = "cc2af081d92e37f6"
+let userKey = "" //your flickr user key
+let userSecret = "" // your flickr user secret
 var userAuthToken = ""
 var userAuthSecret = ""
 var imageCache:NSCache = NSCache<AnyObject,AnyObject>()
